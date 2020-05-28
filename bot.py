@@ -17,12 +17,12 @@ PASS 					= "AKSIS_PASSWORD" #edit this
 session 				= requests.session()
 old_dat 				= ""
 new_dat 				= ""
-NOT_KONTROL_TIME 		= 2
-TELEGRAM_KONTROL_TIME 	= 0.3
+NOT_KONTROL_TIME 			= 2	# Aksis chech interval (1 request in 2 sec)
+TELEGRAM_KONTROL_TIME 			= 0.3	# Telegram check interval (1 request in 0.3 sec)
 CHAT_ID 				= "CHAT_ID" #edit this
-YIL 					= "2019" #edit this
-DONEM 					= "1" #edit this
-kill_sinyali 			= 0 
+YIL 					= "2019" #edit this, 
+DONEM 					= "1" #edit this,  Guz=1 Bahar=2 
+kill_sinyali 				= 0 
 ##
 
 #Func Part
