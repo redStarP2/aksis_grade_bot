@@ -1,5 +1,4 @@
 # aksis_grade_bot
-## Get your grades from telegram
 
 ### Required variables
 
